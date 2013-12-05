@@ -51,3 +51,23 @@ four
 >>> 8 / 5
 1.6
 ```
+
+### Strings
+```python
+>>> 'test'.upper()
+'TEST'
+>>> 'TEST'.lower()
+'test'
+>>> 'Ceci est un test'.endswith('test')
+True
+>>> 'Ceci est un test'.startswith('Ceci')
+True
+```
+
+### Lists !
+```python
+>>> strs = ['one', 'two', 'three', 'four', 'five']
+>>> nums = [1, 2, 3, 4, 5]
+>>> [s + ': ' + str(i) for s, i in zip(strs, nums)]
+['one: 1', 'two: 2', 'three: 3', 'four: 4', 'five: 5']
+```
