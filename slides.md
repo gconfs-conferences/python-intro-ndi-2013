@@ -27,4 +27,27 @@ ceci est un test
 >>>     print("Yep")
 >>> else:
 >>>     print("Nope")
+Yep
+```
+
+### Loops
+```python
+>>> for i in ["one", "two", "three", "four"]:
+>>>     print(i)
+one
+two
+three
+four
+```
+
+### Calculus
+```python
+>>> 2 + 2
+4
+>>> 50 - 5*6
+20
+>>> (50 - 5*6) / 4
+5.0
+>>> 8 / 5
+1.6
 ```
